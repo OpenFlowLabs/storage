@@ -1,8 +1,6 @@
-// +build !linux,!freebsd,!illumos
-
 package zfs
 
-func checkRootdirFs(rootdir string) error {
+func checkRootdirFs(rootDir string) error {
 	return nil
 }
 
